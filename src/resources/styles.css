@@ -1,0 +1,34 @@
+html,
+body {
+  margin: none;
+  padding: none;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #4caf50;
+}
+.intro {
+  height: 100vh;
+  width: 100%;
+  margin: none;
+  background-image: url("qs.jpg");
+  background-repeat: no-repeat;
+  border: 0px solid #4caf50;
+  display: table;
+  top: 0;
+  background-size: cover;
+}
+.intro .inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+  position: relative;
+}
+.content {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.button_wrapper {
+  position: absolute;
+}
